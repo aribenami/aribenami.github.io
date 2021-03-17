@@ -104,13 +104,14 @@ a:link {
 }
 .principles img{
 	float: right;
+	height: 300px;
+	width: auto;
 	display: block;
-	height: auto;
-	width:200px;
 	clear: both;
 	margin-bottom:150px;
 }
 .principles h2{
+	width: 550px;
 	font-family: 'archivo';
 	font-size: 24pt;
 
@@ -124,10 +125,16 @@ a:link {
 	display: block;
 	width: auto;
 	height: 275px;
-	background-color: rgb(230, 184, 76);
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(230, 184, 76) 100%);
 }
-.footer p{
-	font-size: 35pt;
-	color: white;
-	text-align: center;
+.footer img{
+	display: block;
+	height: auto;
+	width:400px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 125px;
 }
+

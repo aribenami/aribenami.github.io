@@ -77,12 +77,17 @@ a:link {
 	margin-top: 180px;
 }
 .intro p{
+	transition: all 500ms;
 	position: relative;
 	top: 50px;
 	font-size: 16pt;
 	float: right;
 	margin-top:50px;
 	width: 400px;
+}
+.intro p:hover{
+	font-size:20pt;
+    font-size-adjust: 16pt;
 }
 .intro img{
 	position: relative;
@@ -98,7 +103,7 @@ a:link {
 	clear: both;
 }
 .principles p{
-	transition: all 600ms;
+	transition: all 500ms;
 	float: left;
 	font-size: 14pt;
 	width:350px;
@@ -116,7 +121,7 @@ a:link {
 	margin-bottom:150px;
 }
 .principles h2{
-	transition: all 600ms;
+	transition: all 500ms;
 	width: 550px;
 	font-family: 'archivo';
 	font-size: 24pt;

@@ -1,0 +1,133 @@
+body{
+	font-family: 'roboto';
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(230, 184, 76) 100%);
+}
+@font-face {
+    font-family: 'archivo';
+    src: url(../fonts/archivo.woff)
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/roboto.woff)
+}
+a{
+	font-family:'archivo';
+}
+
+.yellow a{
+	color:#ebe76b;
+}
+
+.peach a{
+	color:#e49c70;
+}
+
+.orange a{
+	color:#e47c4c;
+}
+
+.red a{
+	color: #d8534f;
+}
+
+a:hover{
+	color:white;
+}
+
+a:link {
+	font-size: 18pt;
+	text-decoration: none;
+	  }
+	 
+.numbers a{
+	float: left;
+	margin-left: 40px;
+	position: relative;
+	top: 12px;
+	left: 190px;
+}
+
+.navBar{
+	position: fixed;
+	z-index: 9;
+	background-color: black;
+	width:2000px;
+	height:45px;	
+
+}
+.container{
+	width: 978px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+	height: auto; 
+	position: relative;
+	top: 150px;
+	}
+
+.intro{
+	clear: both;
+	margin-top: 180px;
+}
+.intro p{
+	position: relative;
+	top: 50px;
+	font-size: 16pt;
+	float: right;
+	margin-top:50px;
+	width: 400px;
+}
+.intro img{
+	position: relative;
+	top: 50px;
+	margin-top: 50px;
+	display: block;
+	width: 300px;
+	height: auto;
+	float:left;
+	margin-bottom: 200px;
+}
+.principles{
+	clear: both;
+}
+.principles p{
+	float: left;
+	font-size: 14pt;
+	width:350px;
+}
+.principles img{
+	float: right;
+	display: block;
+	height: auto;
+	width:200px;
+	clear: both;
+	margin-bottom:150px;
+}
+.principles h2{
+	font-family: 'archivo';
+	font-size: 24pt;
+
+}
+.two{
+	clear: both;
+}
+
+.footer{
+	clear: both;
+	display: block;
+	width: auto;
+	height: 275px;
+	background-color: rgb(230, 184, 76);
+}
+.footer p{
+	font-size: 35pt;
+	color: white;
+	text-align: center;
+}

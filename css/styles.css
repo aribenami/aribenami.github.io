@@ -12,6 +12,7 @@ body{
     src: url(../fonts/roboto.woff)
 }
 a{
+	transition: all 500ms;
 	font-family:'archivo';
 }
 
@@ -33,6 +34,8 @@ a{
 
 a:hover{
 	color:white;
+	font-size:20pt;
+    	font-size-adjust: 18pt;
 }
 
 a:link {

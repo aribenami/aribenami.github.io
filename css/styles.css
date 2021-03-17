@@ -98,9 +98,14 @@ a:link {
 	clear: both;
 }
 .principles p{
+	transition: all 600ms;
 	float: left;
 	font-size: 14pt;
 	width:350px;
+}
+.principles p:hover{
+	font-size:20pt;
+    font-size-adjust: 14pt;
 }
 .principles img{
 	float: right;
@@ -111,10 +116,15 @@ a:link {
 	margin-bottom:150px;
 }
 .principles h2{
+	transition: all 600ms;
 	width: 550px;
 	font-family: 'archivo';
 	font-size: 24pt;
 
+}
+.principles h2:hover{
+	font-size:35pt;
+    font-size-adjust: 24pt;
 }
 .two{
 	clear: both;

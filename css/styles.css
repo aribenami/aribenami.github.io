@@ -11,6 +11,7 @@ body{
     font-family: 'roboto';
     src: url(../fonts/roboto.woff)
 }
+<<<<<<< HEAD
 .navBar{
 	z-index: 9;
 	position: fixed;
@@ -22,6 +23,9 @@ nav a{
 	position: relative;
 	margin-top:15px;
 	float: left;
+=======
+a{
+>>>>>>> f836406e9a575bdf539afa5877c9a8e621dcdb96
 	transition: all 500ms;
 	font-family:'archivo';
 	margin-left:8.4%;
@@ -46,7 +50,11 @@ nav a{
 a:hover{
 	color:white;
 	font-size:20pt;
+<<<<<<< HEAD
     font-size-adjust: 20pt;
+=======
+    	font-size-adjust: 20pt;
+>>>>>>> f836406e9a575bdf539afa5877c9a8e621dcdb96
 }
 
 a:link {
@@ -61,6 +69,10 @@ a:link {
 }
 
 .logo{
+<<<<<<< HEAD
+=======
+
+>>>>>>> f836406e9a575bdf539afa5877c9a8e621dcdb96
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -82,6 +94,10 @@ a:link {
 	margin-top:50px;
 	width: 400px;
 	margin-right:45px;
+}
+.intro p:hover{
+	font-size:20pt;
+    font-size-adjust: 16pt;
 }
 .intro p:hover{
 	font-size:20pt;
@@ -119,7 +135,10 @@ a:link {
 	margin-bottom:150px;
 }
 .principles h2{
+<<<<<<< HEAD
 	display: inline;
+=======
+>>>>>>> f836406e9a575bdf539afa5877c9a8e621dcdb96
 	transition: all 500ms;
 	width: 550px;
 	font-family: 'archivo';

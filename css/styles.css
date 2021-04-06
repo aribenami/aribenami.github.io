@@ -5,7 +5,7 @@
 	margin-right: auto;
 }
 p{
-	font-family: Helvetica;
+	font-family: 'archivo';
 	font-weight: bolder;
 	text-align: center;
 	font-size: 24pt;
@@ -21,4 +21,8 @@ p{
 
 #demo{
 	margin-top: 20px;
+}
+@font-face {
+    font-family: 'archivo';
+    src: url(../fonts/archivo.woff)
 }

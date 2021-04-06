@@ -2,12 +2,11 @@
 <html>
 
     <head>
-		<link href="fcf-assets/css/fcf.default.css" rel="stylesheet">
-		<link href="fcf-assets/css/fcf.default-custom.css" rel="stylesheet">
 		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>	
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<title>Title</title>
+    <title>MEDIAIMMUNE</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
 		<link href="css/reset.css" rel="stylesheet" type="text/css" />
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
@@ -21,15 +20,31 @@
     	<div class="container">
 
 		   <img class="images" src="images/splashpage.jpg">	
-		   <form method="post" action="contact.php">
-			<label for="name">Name:</label>
-			<input type="text" class="text" name="cf_name" id="name" />
-			<label for="email">email:</label>
-			<input type="text" class="text" name="cf_email" id="email" />
-			<label for="text">Message:</label>
-			<textarea class="text" name="cf_message" id="message"></textarea>
-			<input type="submit" class="submit" value="Send" />
-		</form>
+		   <p id="demo"></p>
+
+<script>
+var countDownDate = new Date("May 1, 2021 14:00:00").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+    
+  var distance = countDownDate - now;
+    
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  document.getElementById("demo").innerHTML = days + "D " + hours + "H "
+  + minutes + "M " + seconds + "S ";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
 	
 	</body>
 	</html>

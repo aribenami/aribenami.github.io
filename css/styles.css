@@ -1,6 +1,6 @@
 .container {
-	margin-top:25px;
-	width: 978px;
+	margin-top:50px;
+	width: 750px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -8,12 +8,12 @@ p{
 	font-family: Helvetica;
 	font-weight: bolder;
 	text-align: center;
-	font-size: 36pt;
+	font-size: 24pt;
 	color: red;
 }
 
 .images{
-	width: 750px;
+	width: 600px;
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
